@@ -8,6 +8,8 @@ License:	MIT/X11
 URL:		https://github.com/DaveDavenport/%{name}
 Source0:	https://github.com/DaveDavenport/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires: gcc
+BuildRequires: make
 BuildRequires: i3 >= 4.5
 BuildRequires: bison
 BuildRequires: flex >= 2.5.3
